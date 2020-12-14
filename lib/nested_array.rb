@@ -19,6 +19,14 @@ CONVENTIONAL_PRODUCE = [
 def assembled_matrix
   assembled_matrix = []
   assembled_matrix.push [
+      "Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+  ]
+
+  [
     "Strawberries",
     "Potatoes",
     "Grapes",
@@ -26,15 +34,6 @@ def assembled_matrix
     "Asparagus"
   ]
 
-  assembled_matrix.push [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-
-
-  ]
 end
 
   # Build an array that contains both of the above arrays
