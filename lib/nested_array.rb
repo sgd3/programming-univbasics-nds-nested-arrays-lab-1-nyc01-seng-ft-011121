@@ -59,7 +59,7 @@ def sorted_matrix
   ]
    sorted_matrix.push nested_array1
    sorted_matrix.push nested_array2
-   sorted_matrix[0]sort!
+   sorted_matrix[0].sort!
    sorted_matrix[1].sort!
    sorted_matrix
   # Using Array literal syntax only, build another nested array that
