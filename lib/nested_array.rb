@@ -42,6 +42,26 @@ end
 
 
 def sorted_matrix
+  nested_array[1].sort
+  nested_array[2].sort
+  sorted_matrix = []
+  nested_array1 = []
+  nested_array2 = []
+  nested_array1.push [
+      "Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+  ]
+  nested_array2.push [
+    "Strawberries",
+    "Potatoes",
+    "Grapes",
+    "Avocadoes",
+    "Asparagus"
+  ]
+
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
