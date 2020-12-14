@@ -25,8 +25,7 @@ def assembled_matrix
       "Watermelon",
       "Eggplant"
   ]
-
-  [
+  assembled_matrix.push [
     "Strawberries",
     "Potatoes",
     "Grapes",
