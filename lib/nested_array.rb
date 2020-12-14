@@ -92,7 +92,7 @@ def matrix_update(matrix, row, column, new_value)
   ]
 ]
 
-  marix_update = assembled_matrix[row][column] = new_value
+  martix_update = assembled_matrix[row][column] = new_value
   matrix_update
 
   # Given any matrix (array of arrays), a row index and a column index,
