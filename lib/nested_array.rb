@@ -62,8 +62,8 @@ def sorted_matrix
 
    sorted_matrix.push nested_array1
    sorted_matrix.push nested_array2
-   sorted_matrix[1][1].sort
-   sorted_matrix[1][2].sort
+   sorted_matrix[1].sort
+   sorted_matrix[2].sort
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
