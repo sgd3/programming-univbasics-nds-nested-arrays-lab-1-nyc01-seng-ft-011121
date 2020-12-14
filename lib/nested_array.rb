@@ -43,23 +43,20 @@ end
 
 def sorted_matrix
   sorted_matrix = []
-  nested_array1 = []
-  nested_array2 = []
-  nested_array1.push [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
+  nested_array1 = [
+        "Grapefruit",
+        "Pineapple",
+        "Oranges",
+        "Watermelon",
+        "Eggplant"
   ]
-  nested_array2.push [
+  nested_array2 = [
     "Strawberries",
     "Potatoes",
     "Grapes",
     "Avocadoes",
     "Asparagus"
   ]
-
    sorted_matrix.push nested_array1
    sorted_matrix.push nested_array2
    sorted_matrix[0][0].sort!
