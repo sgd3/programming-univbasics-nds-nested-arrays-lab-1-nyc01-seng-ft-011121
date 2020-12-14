@@ -60,10 +60,10 @@ def sorted_matrix
     "Asparagus"
   ]
 
-   sorted_matrix.push nested_array1
-   sorted_matrix.push nested_array2
    nested_array[1].sort
    nested_array[2].sort
+   sorted_matrix.push nested_array1
+   sorted_matrix.push nested_array2
 
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
