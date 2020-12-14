@@ -82,7 +82,7 @@ def matrix_update(matrix, row, column, new_value)
     "Oranges",
     "Watermelon",
     "Eggplant"
-  ]
+  ],
   [
     "Strawberries",
     "Potatoes",
@@ -91,6 +91,7 @@ def matrix_update(matrix, row, column, new_value)
     "Asparagus"
   ]
 ]
+
   marix_update = assembled_matrix[row][column] = new_value
   matrix_update
 
